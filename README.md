@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1w` sample updated in sync
 
-> **Sample on GitHub** · `US2000_1w.csv` (8 rows, `2026-07-09` -> `2026-08-27`, 0.56 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/us2000)** — **410** `1w` rows (full `1m`: 2,762,553), **11 timeframes**, `2018-10-25` -> `2026-08-27`.
+> **Sample on GitHub** · `US2000_1w.csv` (106 rows, `2024-08-22` -> `2026-08-27`, 9.05 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/us2000)** — **410** `1w` rows (full `1m`: 2,717,412), **11 timeframes**, `2018-10-25` -> `2026-08-27`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Russell 2000 · Index | Russell 2000 · Index |
 | Timeframes | `1w` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1w rows | 8 | **410** |
-| Size | 0.56 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/us2000) |
-| Period | `2026-07-09` -> `2026-08-27` | `2018-10-25` -> `2026-08-27` |
+| 1w rows | 106 | **410** |
+| Size | 9.05 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/us2000) |
+| Period | `2024-08-22` -> `2026-08-27` | `2018-10-25` -> `2026-08-27` |
 | File | `US2000_1w.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/us2000) |
 | Coverage report | — | [US2000 coverage](https://getdata.finance/coverage/us2000) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`US2000_1w.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-09T00:00:00+00:00 | 2989.66 | 3013.87 | 2942.31 | 2978.12 | 1923351 |
-| 2026-07-16T00:00:00+00:00 | 2978.12 | 2987.74 | 2917.38 | 2937.33 | 2144533 |
-| 2026-07-23T00:00:00+00:00 | 2937.33 | 2975.13 | 2892.14 | 2945.78 | 2800945 |
-| 2026-07-30T00:00:00+00:00 | 2945.78 | 3049.63 | 2895.97 | 2998.61 | 1354950 |
-| 2026-08-06T00:00:00+00:00 | 2998.61 | 3069.65 | 2994.21 | 3053.45 | 877450 |
+| 2024-08-22T00:00:00+00:00 | 2176.05 | 2243.14 | 2148.18 | 2186.43 | 954734.77814 |
+| 2024-08-29T00:00:00+00:00 | 2186.43 | 2227.05 | 2131.85 | 2141.12 | 907674.71835 |
+| 2024-09-05T00:00:00+00:00 | 2141.12 | 2155.99 | 2055.94 | 2103.73 | 1069351 |
+| 2024-09-12T00:00:00+00:00 | 2103.73 | 2264.53 | 2098.04 | 2225 | 845315.54611 |
+| 2024-09-19T00:00:00+00:00 | 2225 | 2282 | 2199.58 | 2205.42 | 658958 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-30T00:00:00+00:00 | 2945.78 | 3049.63 | 2895.97 | 2998.61 | 1354950 |
-| 2026-08-06T00:00:00+00:00 | 2998.61 | 3069.65 | 2994.21 | 3053.45 | 877450 |
-| 2026-08-13T00:00:00+00:00 | 3053.45 | 3073.18 | 2987.29 | 2992.95 | 969719 |
-| 2026-08-20T00:00:00+00:00 | 2992.95 | 3024.01 | 2991.11 | 3003.89 | 579210 |
-| 2026-08-27T00:00:00+00:00 | 3014.91 | 3021.6 | 2915.26 | 2917.96 | 672569 |
+| 2026-07-30T00:00:00+00:00 | 2914.91 | 3054.66 | 2901.06 | 3026.02 | 1322567 |
+| 2026-08-06T00:00:00+00:00 | 3026.02 | 3057.12 | 2999.24 | 3052.79 | 927010.32935 |
+| 2026-08-13T00:00:00+00:00 | 3052.79 | 3077.93 | 3018.51 | 3041.52 | 898746 |
+| 2026-08-20T00:00:00+00:00 | 3041.52 | 3047.44 | 2992.18 | 3014.33 | 951605 |
+| 2026-08-27T00:00:00+00:00 | 3014.33 | 3023.85 | 2915.26 | 2917.96 | 862468 |
 
 ## Schema
 
